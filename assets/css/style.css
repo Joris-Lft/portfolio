@@ -1,0 +1,75 @@
+/* Styles for the portfolio page */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  height: 200px;
+}
+
+.project-card h2 {
+  margin: 1rem 0;
+}
+
+.project-card p {
+  padding: 0 1rem;
+  color: #666;
+}
+
+.project-card .button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 1rem 0;
+  transition: background-color 0.3s;
+}
+
+.project-card .button:hover {
+  background-color: #555;
+}
+
+.notice {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 1rem;
+  padding: 0 1rem 1rem;
+}

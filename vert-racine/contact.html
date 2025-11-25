@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactez VertRacine, paysagiste à Toulouse, pour toute demande de devis ou d'information sur nos services de création de jardins, terrasses et aménagement extérieur."
+    />
+    <meta
+      property="og:title"
+      content="Contact - VertRacine - Paysagiste à Toulouse"
+    />
+    <meta
+      property="og:description"
+      content="Contactez VertRacine, paysagiste à Toulouse, pour toute demande de devis ou d'information sur nos services de création de jardins, terrasses et aménagement extérieur."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://jorislefait.github.io/portfolio/vert-racine/contact.html"
+    />
+    <meta
+      property="og:image"
+      content="assets/images/og-image.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Contact - VertRacine - Paysagiste à Toulouse"
+    />
+    <meta
+      name="twitter:description"
+      content="Contactez VertRacine, paysagiste à Toulouse, pour toute demande de devis ou d'information sur nos services de création de jardins, terrasses et aménagement extérieur."
+    />
+    <meta
+      name="twitter:image"
+      content="assets/images/og-image.png"
+    />
+    <title>Contact - VertRacine - Paysagiste à Toulouse</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo"
+          ><img
+            src="assets/images/vert-racine.png"
+            alt="VertRacine Logo"
+            width="180px"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html#services">Nos Services</a></li>
+            <li><a href="index.html#portfolio">Réalisations</a></li>
+            <li><a href="index.html#about">À Propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="cta-button">Demander un devis</a>
+        <button class="mobile-menu-toggle">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Contactez-nous</h1>
+          <p>
+            Un projet, une question ? Remplissez le formulaire ci-dessous ou
+            appelez-nous.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact-form-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h3>Nos Coordonnées</h3>
+              <p>N'hésitez pas à nous contacter directement.</p>
+              <ul>
+                <li><strong>Email :</strong> hello@vertracine.fr</li>
+                <li><strong>Téléphone :</strong> 01 23 45 67 89</li>
+                <li><strong>Zone :</strong> Toulouse & Haute-Garonne</li>
+              </ul>
+              <p>Nous vous recevons sur rendez-vous.</p>
+            </div>
+            <form class="contact-form">
+              <h3>Envoyez-nous un message</h3>
+              <div class="form-group">
+                <label for="name">Nom complet</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Sujet de votre demande</label>
+                <select id="subject" name="subject">
+                  <option value="devis-jardin">
+                    Devis - Jardin sur mesure
+                  </option>
+                  <option value="devis-piscine">
+                    Devis - Abords de piscine
+                  </option>
+                  <option value="devis-terrasse">Devis - Terrasse</option>
+                  <option value="devis-autre">Devis - Autre</option>
+                  <option value="question">Question générale</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="cta-button">
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-col">
+            <img
+              src="assets/images/vert-racine.png"
+              alt="VertRacine Logo"
+              width="180px"
+            />
+            <p>Créateur de jardins d'exception<br />Toulouse & Haute-Garonne</p>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html#services">Services</a></li>
+              <li><a href="index.html#portfolio">Réalisations</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contactez-nous</h4>
+            <p>hello@vertracine.fr<br />01 23 45 67 89</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 VertRacine - Tous droits réservés. Mentions Légales.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+<style>
+  .page-header {
+    background-image: url("https://images.unsplash.com/photo-1656570092131-6dded0d61e16?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+</style>
